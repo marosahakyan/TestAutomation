@@ -1,0 +1,25 @@
+{
+  "name": "testautomation",
+  "version": "1.0.0",
+  "description": "for internship program",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marosahakyan/TestAutomation.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "marosahakyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marosahakyan/TestAutomation/issues"
+  },
+  "homepage": "https://github.com/marosahakyan/TestAutomation#readme",
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
