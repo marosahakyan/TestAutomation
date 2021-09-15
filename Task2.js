@@ -1,5 +1,6 @@
 let car = {};
 car.color = "black";
+
 car.color = "green";
 
 car.power = function (){console.log("low")};
@@ -8,6 +9,30 @@ console.log("car=  " + JSON.stringify(car));
 
 let sum = function(apple, pear){console.log(apple + pear)};
 sum(10,20);
+
+
+
+function checkArgument(arg){
+console.log(typeof arg);
+}
+checkArgument(4);
+
+
+//function checkArgument(arg){
+ //   if(arg%n)
+//}
+
+function checkName(arg){
+    if (arg === "Lilit"){
+        return ' hi ' + arg ;
+    }
+    else{
+        return ' there is no ' + arg + ' such name ' ;
+    }
+}
+    
+    console.log(checkName( "Lilit" ));
+
 
 
 
